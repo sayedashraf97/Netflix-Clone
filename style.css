@@ -138,11 +138,16 @@ nav button{
 .first{
     display: flex;
     justify-content: center;
-    max-width: 70vw;
+    max-width: 77vw;
     margin: auto;
     color: white;
     align-items: center;
 }
+.first> div :nth-child(2){
+  font-weight: 400;
+  font-size: 24px;
+}
+    
 
 .secImg{
     position: relative;
@@ -173,7 +178,8 @@ section.first>div:nth-child(1){
 }
 
 section.first>div:nth-child(2){
-    font-size: 24px;
+    font-weight: 900;
+    font-size: 48px;
 }
 
 .faq{
@@ -300,3 +306,12 @@ footer{
     flex-direction: column;
     gap: 23px;
  }
+
+ .third video{
+    width: 350px;
+    height: 479px;
+    top: -60px;
+    right: 109px;
+    position: absolute;
+}
+
